@@ -1,0 +1,27 @@
+CLI son las siglas de Command Line Interface. Y en este caso se refiere a la herramienta que tenemos disponible para llevar a cabo numerosas acciones sobre nuestros proyectos de Angular, desde la creación de los mismos, hasta la generación automática de ciertos elementos de código.
+
+El CLI de Angular nos permite también poder levantar nuestras aplicaciones sobre un servidor local y así poder servirnos de todas las herramientas que nos ofrecen las diferentes librerías a las que nos vamos a enfrentar.
+
+Es recomendable utilizar este CLI cuando trabajamos con proyectos Angular ya que nos ofrece una organización de ficheros y directorios óptima que facilita la modificación y escalabilidad de nuestras aplicaciones.
+
+Para poder instalar el CLI tenemos que lanzar el siguiente comando en el terminal:
+
+npm install -g @angular/cli
+Para comprobar si la instalación se ha realizado de manera correcta, podemos lanzar el comando:
+
+ng --version
+Algunos comandos interesantes que podemos utilizar gracias a esta herramienta son los siguientes:
+
+Creación de un proyecto
+
+ng new NombreProyecto
+Este comando genera la estructura para gestionar un proyecto a partir de un módulo de Angular. Crea los ficheros necesarios para poder empezar a contruir una aplicación a partir de ellos.
+
+Arrancar el servidor
+
+ng serve
+Levanta un servidor en el ordenador donde estamos trabajando. Para poder acceder a la aplicación usamos la url http://localhost:4200
+
+
+
+Para cada uno de los elementos que veamos a lo largo del curso veremos qué comando específico tenemos que lanzar en cada caso.
